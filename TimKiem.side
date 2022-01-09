@@ -1,0 +1,274 @@
+{
+  "id": "a842a88e-8c6a-49d7-bae4-798508058d09",
+  "version": "2.0",
+  "name": "TestTK",
+  "url": "https://nxbkimdong.com.vn/",
+  "tests": [{
+    "id": "f42f1bbe-890b-40a7-91d6-bc2218c1008b",
+    "name": "TK- 002",
+    "commands": [{
+      "id": "1680c184-f7a4-4ab0-8e26-26b8cbc4e504",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9b6e776-3c46-4c5b-90e6-810355e9b291",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72e80d1e-5816-4d44-8b7b-03a1cfc5feb6",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15809439-4aa1-4a25-b960-050f71a82228",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "dế mèn phiêu lưu ký"
+    }, {
+      "id": "9f20d384-50c8-4914-82e6-b79d996a0681",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "9492d2ac-77d7-424e-a72c-203c1b1e7d48",
+    "name": "TK- 001",
+    "commands": [{
+      "id": "cc53f941-efb0-42ba-bf65-1dc518c082a5",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c261e33d-0cff-47be-8c90-77ea5e8a8598",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f8dcd6c-54f5-40bc-aac1-c30b604f9b3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#searchsubmit > .fa",
+      "targets": [
+        ["css=#searchsubmit > .fa", "css:finder"],
+        ["xpath=//button[@id='searchsubmit']/i", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/span/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4f2e0d7c-b0cb-417a-9b0f-7a01e81d0d28",
+    "name": "TK- 003",
+    "commands": [{
+      "id": "9b0dffa8-eece-4f6a-8be7-c3a6865761ce",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdac026f-818d-4b63-8d55-d18ff59ba179",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a763d75e-5bc1-4169-b0bb-70caf87db3ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a997970-6280-441c-8775-d0bd01a9f7a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "bàn chải"
+    }, {
+      "id": "e5d80efd-a934-4988-8353-880a9279d76b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "359c50ab-198f-4826-9fa0-05d4f015016c",
+    "name": "TK- 004",
+    "commands": [{
+      "id": "c1d6801a-7fa5-4631-8dbf-9e9a78789339",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ff5e166-afa0-4151-973f-d729235d0d4f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b491b0db-dc07-427d-a957-c762cdb56136",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c00e4896-32d9-46f8-a881-c430534760d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "8c3f3066-5345-4312-a0ba-cd9928a447f7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "da8a4422-33cf-491c-a472-81450694a460",
+    "name": "TK- 005",
+    "commands": [{
+      "id": "340687cf-4030-41a5-9e61-2569bdc5d7f7",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48fca163-3d6e-4baf-9a1f-6de23337864a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21e4abaf-1601-42f2-8974-370351fa5d11",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe0cf486-f2fd-4d32-ae7f-7ad0c8192b4b",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "@!"
+    }, {
+      "id": "7f7146d3-4941-48ec-9856-4091dc3011d9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchtext",
+      "targets": [
+        ["id=searchtext", "id"],
+        ["css=#searchtext", "css:finder"],
+        ["xpath=//input[@id='searchtext']", "xpath:attributes"],
+        ["xpath=//form[@id='searchauto']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "37e9749b-1a7a-4d59-8a53-d4dcdd844e80",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f42f1bbe-890b-40a7-91d6-bc2218c1008b"]
+  }],
+  "urls": ["https://nxbkimdong.com.vn/"],
+  "plugins": []
+}
