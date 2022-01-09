@@ -1,0 +1,71 @@
+{
+  "id": "bcefddaf-f58d-497b-86bb-37f37ba71fe9",
+  "version": "2.0",
+  "name": "Xem san pham",
+  "url": "https://nxbkimdong.com.vn/",
+  "tests": [{
+    "id": "b9b5097c-1610-4335-aefa-ca1584286a59",
+    "name": "TCXSP",
+    "commands": [{
+      "id": "8ff3c718-0c68-4162-a95c-40288ce8e6de",
+      "comment": "",
+      "command": "open",
+      "target": "https://nxbkimdong.com.vn/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb8063d7-ce53-42cf-8cb4-7b98d2c9c721",
+      "comment": "",
+      "command": "click",
+      "target": "id=1033632369",
+      "targets": [
+        ["id=1033632369", "id"],
+        ["css=#\\31 033632369", "css:finder"],
+        ["xpath=//img[@alt='Dế mèn phiêu lưu ký']", "xpath:img"],
+        ["xpath=//img[@id='1033632369']", "xpath:attributes"],
+        ["xpath=//div[@id='owl-home-pro-products-slider-3']/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div/div[2]/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2e242b5-a28e-446e-a949-4b814312478d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,102)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ec87d2f-12a0-4e30-9a12-3d539e65135b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-qty__adjust--plus > .icon",
+      "targets": [
+        ["css=.js-qty__adjust--plus > .icon", "css:finder"],
+        ["xpath=//form[@id='AddToCartForm']/div[2]/div/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db4fbeec-612a-4d73-bbfe-9e22871903f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-qty__adjust--minus > .icon",
+      "targets": [
+        ["css=.js-qty__adjust--minus > .icon", "css:finder"],
+        ["xpath=//form[@id='AddToCartForm']/div[2]/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c5709c44-8024-4ed7-adf4-c7baceab49c3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b9b5097c-1610-4335-aefa-ca1584286a59"]
+  }],
+  "urls": ["https://nxbkimdong.com.vn/"],
+  "plugins": []
+}
