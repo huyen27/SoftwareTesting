@@ -1,0 +1,706 @@
+{
+  "id": "9c05cb12-048c-47fe-a29a-60004840371e",
+  "version": "2.0",
+  "name": "chức năng đánh giá sản phẩm",
+  "url": "https://nxbkimdong.com.vn/",
+  "tests": [{
+    "id": "ddaba7ca-6f23-4ba5-a803-9175ab36970f",
+    "name": "TC01",
+    "commands": [{
+      "id": "112c8304-5488-4e9f-8022-d5b9c11c9f65",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "edb1e0a6-522a-47c2-a4a1-47e445ce0516",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=1033632369",
+      "targets": [
+        ["id=1033632369", "id"],
+        ["css=#\\31 033632369", "css:finder"],
+        ["xpath=//img[@alt='Dế mèn phiêu lưu ký']", "xpath:img"],
+        ["xpath=//img[@id='1033632369']", "xpath:attributes"],
+        ["xpath=//div[@id='owl-home-pro-products-slider-3']/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div/div[2]/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f68dc783-dbab-4abb-89dd-32c6c1e2c8a6",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Viết đánh giá",
+      "targets": [
+        ["linkText=Viết đánh giá", "linkText"],
+        ["css=.starbap-write-rev-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Viết đánh giá')]", "xpath:link"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Viết đánh giá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80946829-1cf4-4539-9e8a-4afa142e5617",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_name",
+      "targets": [
+        ["name=reviewer_name", "name"],
+        ["css=.starbap-form > .starbap-form__name-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_name']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div/input", "xpath:position"]
+      ],
+      "value": "Hanh"
+    }, {
+      "id": "8a381fe7-e42b-4e2c-9a3d-f0432e921535",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_email",
+      "targets": [
+        ["name=reviewer_email", "name"],
+        ["css=.starbap-form > .starbap-form__email-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_email']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "honghanhh@gmail.com"
+    }, {
+      "id": "aeeaa187-8e1c-48ac-8a1e-e10c944a65bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_phone",
+      "targets": [
+        ["name=reviewer_phone", "name"],
+        ["css=.starbap-form > .starbap-form__phone-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "0988675321"
+    }, {
+      "id": "85b6fdb8-92fe-4537-8be7-d268b261517f",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_title",
+      "targets": [
+        ["name=review_title", "name"],
+        ["css=.starbap-form__title-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='review_title']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Đánh giá"
+    }, {
+      "id": "62b9f155-f331-4e99-94b7-fe4d235c8089",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_body",
+      "targets": [
+        ["name=review_body", "name"],
+        ["css=.starbap-form__body-fieldset > textarea", "css:finder"],
+        ["xpath=//textarea[@name='review_body']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Đánh giá"
+    }, {
+      "id": "2f0f0848-da1e-4394-afe2-18113d1444ee",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.starbap-submit-rev",
+      "targets": [
+        ["css=.starbap-submit-rev", "css:finder"],
+        ["xpath=//input[@value='Gửi đánh giá']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c1e0df41-4c60-4ca7-8ab6-478b8713552f",
+    "name": "TC02",
+    "commands": [{
+      "id": "559b85aa-f91c-4a5e-a816-5d4db89cac38",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "965f4b2f-1a86-4f65-801c-4b2d47320289",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=1033632369",
+      "targets": [
+        ["id=1033632369", "id"],
+        ["css=#\\31 033632369", "css:finder"],
+        ["xpath=//img[@alt='Dế mèn phiêu lưu ký']", "xpath:img"],
+        ["xpath=//img[@id='1033632369']", "xpath:attributes"],
+        ["xpath=//div[@id='owl-home-pro-products-slider-3']/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div/div[2]/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c5cd9fc-1e42-4941-835c-f2eb18b30d08",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Viết đánh giá",
+      "targets": [
+        ["linkText=Viết đánh giá", "linkText"],
+        ["css=.starbap-write-rev-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Viết đánh giá')]", "xpath:link"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Viết đánh giá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b854b95-8453-4fb8-96b2-f6fa62485cd7",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_name",
+      "targets": [
+        ["name=reviewer_name", "name"],
+        ["css=.starbap-form > .starbap-form__name-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_name']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8115da86-b1f4-4e6e-a591-357603f1a3e8",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_email",
+      "targets": [
+        ["name=reviewer_email", "name"],
+        ["css=.starbap-form > .starbap-form__email-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_email']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "honghanhh@gmail.com"
+    }, {
+      "id": "f7b328b9-ca37-4bb4-9357-ec9863dedd9a",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_title",
+      "targets": [
+        ["name=review_title", "name"],
+        ["css=.starbap-form__title-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='review_title']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Đánh giá"
+    }, {
+      "id": "9a3acd18-e04f-4989-8bd5-7800e4003c4a",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_body",
+      "targets": [
+        ["name=review_body", "name"],
+        ["css=.starbap-form__body-fieldset > textarea", "css:finder"],
+        ["xpath=//textarea[@name='review_body']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Đánh giá"
+    }, {
+      "id": "f6cf4983-53d2-4588-b09e-e377a46c6243",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.starbap-submit-rev",
+      "targets": [
+        ["css=.starbap-submit-rev", "css:finder"],
+        ["xpath=//input[@value='Gửi đánh giá']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "af1176e0-165d-44a4-b5d4-1aed323d07cb",
+    "name": "TC03",
+    "commands": [{
+      "id": "0cb8de1f-a3c3-4183-b6d0-5087884142de",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8bebc0d-dba4-48cd-ac1b-07f95e9a37fe",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=1033632369",
+      "targets": [
+        ["id=1033632369", "id"],
+        ["css=#\\31 033632369", "css:finder"],
+        ["xpath=//img[@alt='Dế mèn phiêu lưu ký']", "xpath:img"],
+        ["xpath=//img[@id='1033632369']", "xpath:attributes"],
+        ["xpath=//div[@id='owl-home-pro-products-slider-3']/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div/div[2]/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d3cdfc7-b07d-40cb-b4f3-91cf2858ec81",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Viết đánh giá",
+      "targets": [
+        ["linkText=Viết đánh giá", "linkText"],
+        ["css=.starbap-write-rev-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Viết đánh giá')]", "xpath:link"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Viết đánh giá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fa8a9e1-87b9-414e-9acc-6b02be7af210",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_name",
+      "targets": [
+        ["name=reviewer_name", "name"],
+        ["css=.starbap-form > .starbap-form__name-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_name']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div/input", "xpath:position"]
+      ],
+      "value": "Hanh"
+    }, {
+      "id": "d999ad3a-fa41-490f-ab45-0f9b2473846f",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_email",
+      "targets": [
+        ["name=reviewer_email", "name"],
+        ["css=.starbap-form > .starbap-form__email-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_email']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "131ce70a-e307-43d3-b3e5-69ab7baf4c09",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_phone",
+      "targets": [
+        ["name=reviewer_phone", "name"],
+        ["css=.starbap-form > .starbap-form__phone-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "0988675321"
+    }, {
+      "id": "2c2b6e44-c956-4fc8-9c41-babee6452ab4",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_title",
+      "targets": [
+        ["name=review_title", "name"],
+        ["css=.starbap-form__title-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='review_title']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Đánh giá"
+    }, {
+      "id": "fcc99882-7222-4163-9bdf-eafc3290a3d0",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_body",
+      "targets": [
+        ["name=review_body", "name"],
+        ["css=.starbap-form__body-fieldset > textarea", "css:finder"],
+        ["xpath=//textarea[@name='review_body']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Đánh giá"
+    }, {
+      "id": "21a4a2aa-5393-47bf-a049-4b194d3cd2a3",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.starbap-submit-rev",
+      "targets": [
+        ["css=.starbap-submit-rev", "css:finder"],
+        ["xpath=//input[@value='Gửi đánh giá']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "39aae6ef-c568-4060-ae16-cce89db02dad",
+    "name": "TC04",
+    "commands": [{
+      "id": "6c1e6296-8c87-436a-bd33-0d6e8a59bed7",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1216947-f674-41b5-861c-904f44d7fd77",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=1033632369",
+      "targets": [
+        ["id=1033632369", "id"],
+        ["css=#\\31 033632369", "css:finder"],
+        ["xpath=//img[@alt='Dế mèn phiêu lưu ký']", "xpath:img"],
+        ["xpath=//img[@id='1033632369']", "xpath:attributes"],
+        ["xpath=//div[@id='owl-home-pro-products-slider-3']/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div/div[2]/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73569d6b-f694-4ef6-9751-b92297485d9e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Viết đánh giá",
+      "targets": [
+        ["linkText=Viết đánh giá", "linkText"],
+        ["css=.starbap-write-rev-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Viết đánh giá')]", "xpath:link"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Viết đánh giá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9392ccd1-117a-4da3-a215-3922a3596c0f",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_name",
+      "targets": [
+        ["name=reviewer_name", "name"],
+        ["css=.starbap-form > .starbap-form__name-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_name']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div/input", "xpath:position"]
+      ],
+      "value": "Hanh"
+    }, {
+      "id": "b1f96998-d5c1-47c0-a31e-40b3295e4f08",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_email",
+      "targets": [
+        ["name=reviewer_email", "name"],
+        ["css=.starbap-form > .starbap-form__email-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_email']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "honghanhh@gmail.com"
+    }, {
+      "id": "852b7e32-dd9e-4dac-8c9b-666008cda5d6",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_phone",
+      "targets": [
+        ["name=reviewer_phone", "name"],
+        ["css=.starbap-form > .starbap-form__phone-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5654542d-d189-4370-8ccc-b730ae6e2125",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_title",
+      "targets": [
+        ["name=review_title", "name"],
+        ["css=.starbap-form__title-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='review_title']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Đánh giá"
+    }, {
+      "id": "d3598f1b-dbc4-4699-aff6-c3409d268fab",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_body",
+      "targets": [
+        ["name=review_body", "name"],
+        ["css=.starbap-form__body-fieldset > textarea", "css:finder"],
+        ["xpath=//textarea[@name='review_body']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Đánh giá"
+    }, {
+      "id": "bdcc4810-6fba-403d-9048-14c8e1403195",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.starbap-submit-rev",
+      "targets": [
+        ["css=.starbap-submit-rev", "css:finder"],
+        ["xpath=//input[@value='Gửi đánh giá']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8692384e-1fc0-47ec-b663-d2bb111e33e0",
+    "name": "TC05",
+    "commands": [{
+      "id": "fc021f3a-622d-4d28-94e4-a1c5d3012617",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9688b7a-5e58-4328-803c-2b3f5cef5f0e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=1033632369",
+      "targets": [
+        ["id=1033632369", "id"],
+        ["css=#\\31 033632369", "css:finder"],
+        ["xpath=//img[@alt='Dế mèn phiêu lưu ký']", "xpath:img"],
+        ["xpath=//img[@id='1033632369']", "xpath:attributes"],
+        ["xpath=//div[@id='owl-home-pro-products-slider-3']/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div/div[2]/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca46eeab-fe45-482b-b62a-c372c1a53030",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Viết đánh giá",
+      "targets": [
+        ["linkText=Viết đánh giá", "linkText"],
+        ["css=.starbap-write-rev-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Viết đánh giá')]", "xpath:link"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Viết đánh giá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "035d00d9-df70-4101-83e0-96fe63a10689",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_name",
+      "targets": [
+        ["name=reviewer_name", "name"],
+        ["css=.starbap-form > .starbap-form__name-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_name']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div/input", "xpath:position"]
+      ],
+      "value": "Hanh"
+    }, {
+      "id": "fa45c057-d22d-4f4c-8020-f7d80f334172",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_email",
+      "targets": [
+        ["name=reviewer_email", "name"],
+        ["css=.starbap-form > .starbap-form__email-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_email']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "honghanhh@gmail.com"
+    }, {
+      "id": "8c6d1259-a71f-433d-bae5-874c87544f30",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_phone",
+      "targets": [
+        ["name=reviewer_phone", "name"],
+        ["css=.starbap-form > .starbap-form__phone-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "0988675321"
+    }, {
+      "id": "03db9f59-25b2-48bf-a4a7-ff3831a8ae97",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_title",
+      "targets": [
+        ["name=review_title", "name"],
+        ["css=.starbap-form__title-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='review_title']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3165e73d-a4ee-4750-9125-3d1caf2f2b3e",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_body",
+      "targets": [
+        ["name=review_body", "name"],
+        ["css=.starbap-form__body-fieldset > textarea", "css:finder"],
+        ["xpath=//textarea[@name='review_body']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Đánh giá"
+    }, {
+      "id": "4633de74-474c-4af9-9261-015c2eece68a",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.starbap-submit-rev",
+      "targets": [
+        ["css=.starbap-submit-rev", "css:finder"],
+        ["xpath=//input[@value='Gửi đánh giá']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6aa2df06-5f54-49fe-91f9-53456e7dda28",
+    "name": "TC06",
+    "commands": [{
+      "id": "de3a9ed0-f761-4156-869c-2f1fc18ff6f1",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29988140-fd41-46d6-9c7c-313e2a33d54c",
+      "comment": "",
+      "command": "clickAt",
+      "target": "id=1033632369",
+      "targets": [
+        ["id=1033632369", "id"],
+        ["css=#\\31 033632369", "css:finder"],
+        ["xpath=//img[@alt='Dế mèn phiêu lưu ký']", "xpath:img"],
+        ["xpath=//img[@id='1033632369']", "xpath:attributes"],
+        ["xpath=//div[@id='owl-home-pro-products-slider-3']/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//section[3]/div/div/div[2]/div/div/div/div/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4df0ccd6-f2ca-4d53-8d82-2f38616e1320",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=Viết đánh giá",
+      "targets": [
+        ["linkText=Viết đánh giá", "linkText"],
+        ["css=.starbap-write-rev-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Viết đánh giá')]", "xpath:link"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Viết đánh giá')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e92f56e-ab11-4d21-948f-d03768672a39",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_name",
+      "targets": [
+        ["name=reviewer_name", "name"],
+        ["css=.starbap-form > .starbap-form__name-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_name']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/form/div/input", "xpath:position"]
+      ],
+      "value": "Hanh"
+    }, {
+      "id": "e1b73d1d-76b3-444d-be86-4c46be1489d1",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_email",
+      "targets": [
+        ["name=reviewer_email", "name"],
+        ["css=.starbap-form > .starbap-form__email-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_email']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "honghanhh@gmail.com"
+    }, {
+      "id": "d6347cc7-59db-4d74-bdd2-5194fa8a383d",
+      "comment": "",
+      "command": "type",
+      "target": "name=reviewer_phone",
+      "targets": [
+        ["name=reviewer_phone", "name"],
+        ["css=.starbap-form > .starbap-form__phone-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='reviewer_phone']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "0988675321"
+    }, {
+      "id": "e6bf6757-6e47-4b25-868c-fb93b3e5ccc2",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_title",
+      "targets": [
+        ["name=review_title", "name"],
+        ["css=.starbap-form__title-fieldset > input", "css:finder"],
+        ["xpath=//input[@name='review_title']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Đánh giá"
+    }, {
+      "id": "383c06ef-c0a1-4df2-91d9-e7f0060fd762",
+      "comment": "",
+      "command": "type",
+      "target": "name=review_body",
+      "targets": [
+        ["name=review_body", "name"],
+        ["css=.starbap-form__body-fieldset > textarea", "css:finder"],
+        ["xpath=//textarea[@name='review_body']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/div[6]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39c58bd6-8c7c-4b49-93d3-caae4f045104",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.starbap-submit-rev",
+      "targets": [
+        ["css=.starbap-submit-rev", "css:finder"],
+        ["xpath=//input[@value='Gửi đánh giá']", "xpath:attributes"],
+        ["xpath=//div[@id='startbap_product_reviews']/div/div/div[6]/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "778b08c5-2eae-4f59-9ed8-ac9c52237846",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://nxbkimdong.com.vn/"],
+  "plugins": []
+}
