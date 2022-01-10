@@ -17,6 +17,7 @@ class BookWishListAutomationTest(unittest.TestCase):
         inst.driver = webdriver.Chrome(service=service)
         inst.driver.maximize_window()
         inst.driver.get("https://nxbkimdong.com.vn/collections/manga")
+        time.sleep(10)
 
     def testWishListAdding_clickAddToWishListASpecificBook_haveThisBookInTheWishListPage(
             self):
@@ -82,6 +83,7 @@ class BookWishListAutomationTest(unittest.TestCase):
         body_Text = self.driver.find_element(By.CSS_SELECTOR,"#onAppWishList_page > div.main_content_bottom > div > div.wish-list.grid-uniform.product-list.mg-left-15 > div").text
         self.assertTrue("Không có sản phẩm trong danh sách yêu thích.",body_Text)
         print(body_Text)
+
 
     @classmethod
     def tearDown(inst):
